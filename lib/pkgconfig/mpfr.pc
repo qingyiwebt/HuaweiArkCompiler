@@ -1,0 +1,11 @@
+prefix=/usr1/compiler_cpu/code/current/build/hcc_arm64le_ark/arm64le_build_dir/gcc-ark-7.3.0-x86_64_aarch64-linux-gnu
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: mpfr
+URL: https://www.mpfr.org/
+Description: C library for multiple-precision floating-point computations
+Version: 4.0.2
+Libs: -L${libdir} -lmpfr -lgmp
+Cflags: -I${includedir}

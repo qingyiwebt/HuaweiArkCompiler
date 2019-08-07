@@ -1,2 +1,2 @@
-# HuaweiArkCompiler
-华为的方舟编译器源代码（即针对服务器优化）
+﻿# HuaweiArkCompiler
+华为的方舟编译器发布版（即声称针对服务器优化的那货）
